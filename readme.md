@@ -8,4 +8,3 @@
 ## Cara Setup
 1. Salin `include/secrets.example.h` menjadi `include/secrets.h`.
 2. Isi `WIFI_SSID` dan `WIFI_PASSWORD` pada `include/secrets.h`.
-3. Buka proyek menggunakan **VS Code + PlatformIO** dan lakukan *Build & Upload*.
