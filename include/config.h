@@ -1,0 +1,4 @@
+#pragma once
+
+#define SERIAL_BAUD_RATE 115200
+#define WIFI_CHECK_INTERVAL 10000
