@@ -9,3 +9,5 @@ include/secrets.h
 
 # File sistem macOS
 .DS_Store
+
+pkg/
