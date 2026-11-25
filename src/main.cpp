@@ -1,6 +1,7 @@
 #include <Arduino.h>
 #include "config.h"
 #include "wifi_manager.h"
+#include "mqtt_manager.h"
 
 void setup()
 {
@@ -12,9 +13,11 @@ void setup()
   Serial.println("==========================================");
 
   initWiFi();
+  initMQTT();
 }
 
 void loop()
 {
   checkWiFiConnection();
+  checkMQTTConnection();
 }
